@@ -1,0 +1,24 @@
+Performing C SOURCE FILE Test _GLFW_HAS_64ASLR failed with the following output:
+Change Dir: D:/flashingMenger/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/chris/MinGW/bin/mingw32-make.exe cmTC_c9e7c/fast 
+C:/Users/chris/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_c9e7c.dir\build.make CMakeFiles/cmTC_c9e7c.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/flashingMenger/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9e7c.dir/src.c.obj
+C:\Users\chris\MinGW\bin\gcc.exe   -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va   -o CMakeFiles\cmTC_c9e7c.dir\src.c.obj   -c D:\flashingMenger\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_c9e7c.exe
+"D:\CLion\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c9e7c.dir\link.txt --verbose=1
+"D:\CLion\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_c9e7c.dir/objects.a
+C:\Users\chris\MinGW\bin\ar.exe cr CMakeFiles\cmTC_c9e7c.dir/objects.a @CMakeFiles\cmTC_c9e7c.dir\objects1.rsp
+C:\Users\chris\MinGW\bin\gcc.exe  -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va    -Wl,--whole-archive CMakeFiles\cmTC_c9e7c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c9e7c.exe -Wl,--out-implib,libcmTC_c9e7c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c9e7c.dir\linklibs.rsp
+c:/users/chris/mingw/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/bin/ld.exe: unrecognized option '--high-entropy-va'
+c:/users/chris/mingw/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_c9e7c.dir\build.make:87: recipe for target 'cmTC_c9e7c.exe' failed
+mingw32-make.exe[1]: *** [cmTC_c9e7c.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/flashingMenger/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_c9e7c/fast' failed
+mingw32-make.exe: *** [cmTC_c9e7c/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }

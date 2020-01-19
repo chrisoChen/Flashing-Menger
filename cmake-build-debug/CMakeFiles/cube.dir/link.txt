@@ -1,0 +1,3 @@
+"D:\CLion\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cube.dir/objects.a
+C:\Users\chris\MinGW\bin\ar.exe cr CMakeFiles\cube.dir/objects.a @CMakeFiles\cube.dir\objects1.rsp
+C:\Users\chris\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\cube.dir/objects.a -Wl,--no-whole-archive  -o cube.exe -Wl,--out-implib,libcube.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cube.dir\linklibs.rsp

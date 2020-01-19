@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GLFW"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\glfw\;CMake Files\external\glfw\CMake\;CMake Files\external\glfw\CMake\modules\;CMake Files\external\glfw\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/flashingMenger/cmake-build-debug/external/glfw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/chris/MinGW/bin/mingw32-make.exe -f &quot;D:/flashingMenger/cmake-build-debug/external/glfw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/chris/MinGW/bin/mingw32-make.exe -f &quot;D:/flashingMenger/cmake-build-debug/external/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/chris/MinGW/bin/mingw32-make.exe -f &quot;D:/flashingMenger/cmake-build-debug/external/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/chris/MinGW/bin/mingw32-make.exe -f &quot;D:/flashingMenger/cmake-build-debug/external/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="D:/flashingMenger/cmake-build-debug/external/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/flashingMenger/cmake-build-debug/external/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="D:/flashingMenger/external/glfw/include"/>
+					<Add directory="D:/flashingMenger/external/glfw/src"/>
+					<Add directory="D:/flashingMenger/cmake-build-debug/external/glfw/src"/>
+					<Add directory="C:/Users/chris/MinGW/include"/>
+					<Add directory="c:\users\chris\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\users\chris\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\users\chris\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\users\chris\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\users\chris\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\users\chris\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/chris/MinGW/bin/mingw32-make.exe -f &quot;D:/flashingMenger/cmake-build-debug/external/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="C:/Users/chris/MinGW/bin/mingw32-make.exe -f &quot;D:/flashingMenger/cmake-build-debug/external/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/chris/MinGW/bin/mingw32-make.exe -f &quot;D:/flashingMenger/cmake-build-debug/external/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/chris/MinGW/bin/mingw32-make.exe -f &quot;D:/flashingMenger/cmake-build-debug/external/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="D:/flashingMenger/cmake-build-debug/external/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/flashingMenger/cmake-build-debug/external/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="D:/flashingMenger/external/glfw/include"/>
+					<Add directory="D:/flashingMenger/external/glfw/src"/>
+					<Add directory="D:/flashingMenger/cmake-build-debug/external/glfw/src"/>
+					<Add directory="C:/Users/chris/MinGW/include"/>
+					<Add directory="c:\users\chris\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\users\chris\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\users\chris\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\users\chris\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\users\chris\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\users\chris\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/chris/MinGW/bin/mingw32-make.exe -f &quot;D:/flashingMenger/cmake-build-debug/external/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="C:/Users/chris/MinGW/bin/mingw32-make.exe -f &quot;D:/flashingMenger/cmake-build-debug/external/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/chris/MinGW/bin/mingw32-make.exe -f &quot;D:/flashingMenger/cmake-build-debug/external/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/chris/MinGW/bin/mingw32-make.exe -f &quot;D:/flashingMenger/cmake-build-debug/external/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/flashingMenger/cmake-build-debug/external/glfw/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/osmesa_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/wgl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/wgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/win32_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/win32_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/win32_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/win32_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/win32_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/win32_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/win32_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/win32_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw\"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\external\glfw\CMake\modules\"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="D:/flashingMenger/external/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
